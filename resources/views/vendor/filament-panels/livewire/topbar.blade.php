@@ -68,6 +68,8 @@
                                 class="fi-app-menu-panel"
                             >
                                 <div class="fi-app-menu-header">
+                                    <h2 class="fi-app-menu-title">{{ __('Select a module') }}</h2>
+
                                     <x-filament::icon-button
                                         :icon="\Filament\Support\Icons\Heroicon::OutlinedXMark"
                                         color="gray"

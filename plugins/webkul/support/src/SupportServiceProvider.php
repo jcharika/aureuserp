@@ -189,8 +189,6 @@ class SupportServiceProvider extends PackageServiceProvider
 
         $this->registerLanguageSwitch();
 
-        $this->registerHooks();
-
         $this->registerRouterMacros();
     }
 }

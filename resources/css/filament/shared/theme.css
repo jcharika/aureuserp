@@ -419,7 +419,7 @@
 }
 
 .fi-app-menu-backdrop {
-    @apply absolute inset-0 bg-gray-950/50 backdrop-blur-sm dark:bg-gray-950/75 md:bg-white/85 md:bg-linear-to-r md:from-primary-50/90 md:via-white/80 md:to-primary-100/90 md:backdrop-blur-xl md:dark:bg-gray-950/90 md:dark:from-gray-950/90 md:dark:via-primary-950/50 md:dark:to-primary-950/80;
+    @apply absolute inset-0 bg-white dark:bg-gray-900;
 }
 
 .fi-app-menu-panel {
@@ -428,6 +428,10 @@
 
 .fi-app-menu-header {
     @apply flex h-(--topbar-height) shrink-0 items-center justify-between border-b border-gray-200 bg-white px-4 md:fixed md:inset-x-0 md:top-0 md:z-10 dark:border-white/10 dark:bg-gray-900;
+}
+
+.fi-app-menu-title {
+    @apply absolute start-1/2 -translate-x-1/2 text-lg font-bold text-[#173C73] dark:text-white;
 }
 
 .fi-app-menu-close-btn {
