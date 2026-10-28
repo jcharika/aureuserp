@@ -8,7 +8,6 @@ use Filament\Http\Middleware\DisableBladeIconComponents;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Filament\Panel;
 use Filament\PanelProvider;
-use Filament\Support\Colors\Color;
 use Filament\Support\Enums\Width;
 use Filament\View\PanelsRenderHook;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
@@ -36,7 +35,7 @@ class CustomerPanelProvider extends PanelProvider
             ->simplePageMaxContentWidth(Width::Small)
             ->brandLogoHeight('2rem')
             ->colors([
-                'primary' => Color::Blue,
+                'primary' => '#173C73',
             ])
             ->topNavigation()
             ->renderHook(

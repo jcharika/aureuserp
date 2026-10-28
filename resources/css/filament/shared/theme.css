@@ -53,9 +53,21 @@
 
 .fi-sidebar-item.fi-active > .fi-sidebar-item-btn {
     @apply border-primary-600 bg-primary-50 dark:border-primary-400 dark:bg-primary-400/10;
+    border-inline-start-color: #35c8b5;
+    background-color: #effbf9;
 
     & > .fi-sidebar-item-label {
-        @apply font-semibold text-primary-700 dark:text-primary-300;
+        @apply font-semibold;
+        color: #174f65;
+    }
+}
+
+.dark .fi-sidebar-item.fi-active > .fi-sidebar-item-btn {
+    border-inline-start-color: #43e3c5;
+    background-color: rgb(67 227 197 / 10%);
+
+    & > .fi-sidebar-item-label {
+        color: #91e9dd;
     }
 }
 
@@ -399,7 +411,7 @@
 }
 
 .fi-topbar-app-name {
-    @apply px-2 text-lg font-semibold text-gray-950 dark:text-white;
+    @apply px-2 text-lg font-semibold text-[#173C73] dark:text-white;
 }
 
 .fi-app-menu-overlay {

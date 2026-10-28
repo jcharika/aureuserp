@@ -15,6 +15,8 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    'show_plugins_link' => (bool) env('SHOW_PLUGINS_LINK', true),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment

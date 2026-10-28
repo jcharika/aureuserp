@@ -89,6 +89,10 @@
                                             $itemUrl = $group->getItems()->first()?->getUrl();
                                         @endphp
 
+                                        @if (! config('app.show_plugins_link', true) && $groupLabel === \Webkul\Support\Enums\NavigationGroup::Plugin->getLabel())
+                                            @continue
+                                        @endif
+
                                         @if (! $groupLabel || ! $itemUrl || ! $groupIcon)
                                             @continue
                                         @endif
