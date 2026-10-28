@@ -9,7 +9,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.3",
+        "php": "^8.4",
         "aureuserp/nativephp-remote": "^0.1.0",
         "barryvdh/laravel-debugbar": "^4.0",
         "barryvdh/laravel-dompdf": "^3.1",
@@ -34,7 +34,8 @@
         "spatie/eloquent-sortable": "^5.0",
         "spatie/laravel-query-builder": "^7.0",
         "spatie/laravel-translatable": "^6.14",
-        "wikimedia/composer-merge-plugin": "^2.1"
+        "wikimedia/composer-merge-plugin": "^2.1",
+        "ext-pdo": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

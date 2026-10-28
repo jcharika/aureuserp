@@ -1,19 +1,6 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_3313_1301)">
-<path d="M51 0.5H13C6.09644 0.5 0.5 6.09644 0.5 13V51C0.5 57.9036 6.09644 63.5 13 63.5H51C57.9036 63.5 63.5 57.9036 63.5 51V13C63.5 6.09644 57.9036 0.5 51 0.5Z" fill="white"/>
-<path d="M51 0.5H13C6.09644 0.5 0.5 6.09644 0.5 13V51C0.5 57.9036 6.09644 63.5 13 63.5H51C57.9036 63.5 63.5 57.9036 63.5 51V13C63.5 6.09644 57.9036 0.5 51 0.5Z" stroke="#DCE0E5"/>
-<path d="M56 8H8V56H56V8Z" fill="white"/>
-<path d="M17 30L32.5742 22.671C33.2374 22.3588 34 22.8428 34 23.5758V29.6153C34 29.7962 34.1862 29.9172 34.3515 29.8438L50.5939 22.625C51.2551 22.331 52 22.8151 52 23.5388V30V50H17V30Z" fill="#0070F2"/>
-<rect x="10" y="50" width="44" height="3" rx="1.5" fill="#0070F2"/>
-<path d="M36.7371 36H31.2629C30.5654 36 30 36.5654 30 37.2629V42.7371C30 43.4346 30.5654 44 31.2629 44H36.7371C37.4346 44 38 43.4346 38 42.7371V37.2629C38 36.5654 37.4346 36 36.7371 36Z" fill="white"/>
-<path d="M47.7371 36H42.2629C41.5654 36 41 36.5654 41 37.2629V42.7371C41 43.4346 41.5654 44 42.2629 44H47.7371C48.4346 44 49 43.4346 49 42.7371V37.2629C49 36.5654 48.4346 36 47.7371 36Z" fill="white"/>
-<path d="M24.4615 17H14.5385L14.4615 18H24.5385L24.4615 17Z" fill="#FC5B1C"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14.4615 18H24.5385L27 50H12L14.4615 18Z" fill="#FDB421"/>
-<path d="M14.5385 17H24.4615L24.142 12.8466C24.0619 11.8046 23.193 11 22.1479 11H16.8521C15.807 11 14.9381 11.8046 14.858 12.8466L14.5385 17Z" fill="#FC5B1C"/>
-</g>
-<defs>
-<clipPath id="clip0_3313_1301">
-<rect width="64" height="64" fill="white"/>
-</clipPath>
-</defs>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<defs><linearGradient id="betrix-bg" x1="8" y1="5" x2="58" y2="62" gradientUnits="userSpaceOnUse"><stop stop-color="#163A72"/><stop offset="1" stop-color="#071A38"/></linearGradient><linearGradient id="betrix-accent" x1="17" y1="17" x2="48" y2="48" gradientUnits="userSpaceOnUse"><stop stop-color="#38D6C5"/><stop offset="1" stop-color="#3E9CFF"/></linearGradient></defs>
+<rect x="1" y="1" width="62" height="62" rx="16" fill="url(#betrix-bg)"/><rect x="1.5" y="1.5" width="61" height="61" rx="15.5" stroke="white" stroke-opacity=".12"/>
+<circle cx="48" cy="16" r="3" fill="url(#betrix-accent)"/><g stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 46V30l10 6V27l10 7V22h10v24z"/><path d="M23 41h4m5 0h4m5 0h4"/><path d="M37 17h10v10"/></g>
+<path d="M14 51h10" stroke="url(#betrix-accent)" stroke-width="3" stroke-linecap="round"/>
 </svg>

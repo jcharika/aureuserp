@@ -206,7 +206,7 @@
 }
 
 .fi-btn {
-    @apply min-h-8 rounded-md px-3.5 py-1.5 text-xs font-medium;
+    @apply min-h-8 rounded-lg px-3.5 py-1.5 text-xs font-medium border-0;
 
     &.fi-size-sm {
         @apply min-h-7 px-2.5 py-1 text-(length:--text-2xs);
